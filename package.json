@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify script.js > bundle.js && live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rizalshmbg/background-generator/issues"
   },
-  "homepage": "https://github.com/rizalshmbg/background-generator#readme"
+  "homepage": "https://github.com/rizalshmbg/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
